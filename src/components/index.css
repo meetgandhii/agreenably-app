@@ -1,0 +1,100 @@
+.recommendation-engine-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.checkbox-item {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.response-message {
+    margin-top: 20px;
+    color: #ff0000;
+    font-size: 14px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="range"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="range"] {
+    margin-top: 5px;
+}
+
+@media (max-width: 480px) {
+    .recommendation-engine-container {
+        max-width: 100%;
+    }
+}
+
+.certification-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.certification-container h3 {
+    margin-bottom: 10px;
+}
+
+.certification-container p {
+    overflow-x: scroll;
+    margin-bottom: 5px;
+}
+
+.no-certificates {
+    text-align: center;
+    color: #ff0000;
+    margin-top: 20px;
+}
+
+.result-container {
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 20px;
+}
+
+.certification-content {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
