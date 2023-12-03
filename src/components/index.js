@@ -50,7 +50,7 @@ function RecommendationEngine() {
         }
         try {
             console.log('Sending request to the server...');
-            const response = await axios.post('http://localhost:4000/submitForm', {
+            const response = await axios.post('https://agreenably-server.onrender.com/submitForm', {
                 email,
                 industries: selectedIndustries,
                 revenue,
